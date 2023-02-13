@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    padding: 1em 4em;
+    min-height: 100vh;
+    background-color: rgb(170, 196, 233);
+}
+
+p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(15, 1, 1);
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: 31px;
+    margin-bottom: 10px;
+}
+
+.input-box {
+
+    width: 100%;
+    box-sizing: border-box;
+    background-color:white;
+    border: 1px;
+    height: 27px;
+    margin-top: 8px;
+    padding: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-style {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.add-btn {
+    background-color: rgb(130, 206, 174);
+
+    color: rgb(241, 243, 223);
+    font-size: larger;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 3px rgba(39, 44, 37, 0.5);
+    border: none;
+}
+
+.add-prior-btn {
+    background-color: rgb(116, 169, 248);
+    color: rgb(240, 228, 224);
+    font-size: larger;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 2px 3px 3px rgba(8, 21, 29, 0.5);
+    border: none;
+}
+
+.del-all-btn {
+    background-color: rgb(235, 114, 114);
+    color: rgb(241, 243, 223);
+    font-size: larger;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 2px 3px 3px rgba(83, 6, 48, 0.5);
+    border: none;
+}
+
+.todo {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 38px;
+    margin-left: 350px;
+    margin-right: 350px;
+
+}
+
+.todo-item {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 400;
+
+}
+
+.complete-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    color: rgb(241, 241, 241);
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(201, 162, 33);
+    box-shadow: 2px 3px 3px rgba(78, 66, 10, 0.5);
+    border: none;
+
+
+}
+
+.delete-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    color: rgb(253, 253, 246);
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(199, 44, 44, 0.829);
+    box-shadow: 2px 3px 3px rgba(73, 8, 4, 0.5);
+    border: none;
+}
